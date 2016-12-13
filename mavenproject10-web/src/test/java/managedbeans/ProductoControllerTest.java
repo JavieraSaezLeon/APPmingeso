@@ -58,6 +58,7 @@ public class ProductoControllerTest {
      */
     @Test
     public void testSetSelected() {
+        int numero;
         System.out.println("setSelected");
         Producto selected = new Producto();
         selected.setCiudad("Test");
@@ -120,7 +121,7 @@ public class ProductoControllerTest {
     /**
      * Test of destroy method, of class ProductoController.
      */
-  /*
+  /**/
     @Test
     public void testDestroy() {
         System.out.println("destroy");
@@ -129,7 +130,7 @@ public class ProductoControllerTest {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
-*/
+
     /**
      * Test of getItems method, of class ProductoController.
      */
